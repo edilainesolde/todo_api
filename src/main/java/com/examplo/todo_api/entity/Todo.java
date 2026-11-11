@@ -1,4 +1,4 @@
-package com.examplo.todo_api.entity;
+package com.exemplo.todo_api.entity;
 
 import jakarta.annotation.Generated;
 import jakarta.persistence.Id;
@@ -12,7 +12,7 @@ public class Todo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     private String titulo;
     private String descricao;
     private boolean concluido;

@@ -12,7 +12,7 @@ public class TodoService {
     public TodoService(TodoRepository repository) {
         this.repository = repository;
     }
-    publico Todo save(Todo todo) {
+    public Todo save(Todo todo) {
         return repository.save(todo);
     }
 }
